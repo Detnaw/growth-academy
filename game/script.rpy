@@ -1131,10 +1131,10 @@ label SeatAssignments:
 label AfterClass1:
     scene black
     with dissolve
-    "There were other classes that day, some with normal teachers, others changed lik Tashi-Sensei, but I could barely pay attention."
+    "There were other classes that day, some with normal teachers, others changed like Tashi-Sensei, but I could barely pay attention."
     MCT "So is that why Honoka's boobs had gotten so large? {w} Were they going to get bigger? {w} What of everyone else I'd met so far? What about Tomo-chan? What about {i}me{/i}?"
     MCT "What is going on at this school?!"
-    UNKNOWN "Keisuke? {w} Hotsura Keisuke?"
+    UNKNOWN "Keisuke? {w} Hotsure Keisuke?"
     
     scene F1 Hallway
     with dissolve
