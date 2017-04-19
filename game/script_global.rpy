@@ -153,7 +153,7 @@ label global000:
     BE "...I guess I have to forgive you then. You've grown up so much, so it's unreasonable to expect you to remember me if I've changed just as much."
     MCT "Exactly! There are limits to a guy's memory, you know? Besides..."
     play sound "Audio/Boing.ogg"
-    show cg BE001 with vpunch
+    show cg mBE001 with vpunch
     MCT "I'm pretty sure I would have remembered those!"
     hide cg with dissolve
     show BE neutral with dissolve
@@ -176,7 +176,7 @@ label global000:
     "...Now that I think about it, it looks like she's wearing a school uniform. I guess this means I might even be in the same class as Honoka."
     BE "Come on, Kei{i}-chan{/i}!\nI'll show you the way there."
     "So with that, I picked up my luggage and followed Honoka."
-    show cg BE002 with dissolve
+    show cg BE001 with dissolve
     BE "So, how have you been?\nHow about Tomo{i}-chan{/i}, her too!"
     "Tomo{i}-chan{/i} is Hotsure Tomoko, my younger sister."
     MC "She's doing fine. So am I."
@@ -382,7 +382,7 @@ label global000_BBW:
     "The first thing I noticed was that, much like the rest of the shool, the classroom seemed very big. It was much larger than any that I had been in before."
     "Whether or not this meant that there would be more students, or if this was just something that made high school different, I had no idea."
     "The next thing I noticed was that Honoka and I weren't alone in the room. Sitting across from us, at the head of the classroom, was another girl."
-    show cg BBW002 with dissolve
+    show cg BBW001 with dissolve
     "She had a round face, and bright blue eyes framed by gold colored hair.{w} It seemed as though we had a foreigner in our midst."
     "She was sitting with her feet on one of the desks, but stood up and grinned when she saw us enter."
     UNKNOWN "Oh? What have we here? I guess that Shiori told you to come up here too?"

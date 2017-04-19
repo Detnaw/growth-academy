@@ -10,8 +10,8 @@ image BBW angry = DynamicImage("Graphics/BBW-[globalsize]-angry.png")
 image BBW aroused = DynamicImage("Graphics/BBW-[globalsize]-aroused.png")
 image BBW haughty = DynamicImage("Graphics/BBW-[globalsize]-haughty.png")
 
-image cg BBW001 = "Graphics/BBW-SC-1.png"
-image cg BBW002 = "Graphics/BBW-SC-2.png"
+image cg BBW001 = "Graphics/cg-BBW001.png"
+image cg mBBW001 = "Graphics/cg-mBBW001.png"
 
 init python:
     eventlibrary['BBW001'] = {"name": "BBW001", "girls": ["BBW"], "location": "cafeteria", "conditions": [], "priority": 0}
@@ -189,7 +189,7 @@ label BBW002_c2_1:
     BBW "I have never encountered a problem I could not deal with. Whatever sort of... mutation I am about to experience, I will handle it with grace and composure. You will not see me sobbing or wailing my misfortune."
     MC "Hmm-mmm. You have any idea what it might be? Or if they even know?"
     BBW "I haven't the slightest."
-    show cg BBW001
+    show cg mBBW001
     MC "Yeah, it's a puzzle. Anyway..."
     hide cg
     jump BBW002_c2_2

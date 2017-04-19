@@ -7,8 +7,8 @@ image BE surprised = DynamicImage("Graphics/BE-[globalsize]-surprised.png")
 image BE angry = DynamicImage("Graphics/BE-[globalsize]-angry.png")
 image BE aroused = DynamicImage("Graphics/BE-[globalsize]-aroused.png")
 
-image cg BE001 = "Graphics/BE-SC-1.png"
-image cg BE002 = "Graphics/BE-SC-2.png"
+image cg BE001 = "Graphics/cg-BE001.png"
+image cg mBE001 = "Graphics/cg-mBE001.png"
 
 init python:
     eventlibrary['BE001'] = {"name": "BE001", "girls": ["BE"], "location": "roof", "conditions": [], "priority": 0}

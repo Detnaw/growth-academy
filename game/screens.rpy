@@ -193,6 +193,7 @@ screen main_menu():
 
         textbutton _("New Game") action Start()
         textbutton _("Continue") action ShowMenu("load")
+        textbutton _("Gallery") action ShowMenu("galleryselect")
         textbutton _("Website")  action OpenURL("https://www.expansiongames.net")
         textbutton _("Settings") action ShowMenu("preferences")
         textbutton _("Help") action Help()
