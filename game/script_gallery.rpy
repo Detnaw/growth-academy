@@ -10,7 +10,7 @@ init python:
     galImgList["PRG"] = []
     
     for g in girllist:
-        galleries[g].locked_button = "Graphics/ui/galleryicon-imglocked.png"
+        galleries[g].locked_button = im.Scale("Graphics/ui/galleryicon-imglocked.png", 200, 150, bilinear=True)
         for i in galImgList[g]:
             galleries[g].button("cg " + i)
             galleries[g].unlock_image("cg " + i)
