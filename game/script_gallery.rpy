@@ -8,7 +8,7 @@ init python:
     galImgList["AE"] = []
     galImgList["GTS"] = []
     galImgList["FMG"] = []
-    galImgList["BBW"] = ["mBBW001"]
+    galImgList["BBW"] = ["BBW001", "mBBW001"]
     galImgList["PRG"] = []
     
     for g in girllist:
