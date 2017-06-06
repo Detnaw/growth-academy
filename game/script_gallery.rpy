@@ -1,12 +1,14 @@
+image galleryBG = "Graphics/galleryBG.png"
+
 init python:
     activegal = ""
     galleries = {"BE": Gallery(), "AE": Gallery(), "GTS": Gallery(), "FMG": Gallery(), "BBW": Gallery(), "PRG": Gallery()}
     galImgList = {}
-    galImgList["BE"] = ["BE001"]
+    galImgList["BE"] = ["BE001", "mBE001"]
     galImgList["AE"] = []
     galImgList["GTS"] = []
     galImgList["FMG"] = []
-    galImgList["BBW"] = ["BBW001"]
+    galImgList["BBW"] = ["mBBW001"]
     galImgList["PRG"] = []
     
     for g in girllist:
@@ -17,7 +19,7 @@ init python:
 
 screen galleryselect:
     tag menu
-
+    add "galleryBG"
     grid 3 3:
         xfill True
         yfill True
@@ -34,6 +36,7 @@ screen galleryselect:
 
 screen gallery:
     tag menu
+    add "galleryBG"
     default page = 0
     grid 3 3:
         xfill True

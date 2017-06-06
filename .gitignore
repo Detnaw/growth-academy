@@ -1,15 +1,12 @@
-*.rpyc
-*.rpyb
-*.rpymc
-*.pyc
-*.pyo
-
-*~
-*.bak
-
-saves
+**/*.rpyc
+**/*.rpyb
+**/*.rpymc
+**/*.pyc
+**/*.pyo
+**/*.bak
+game/saves/**
 tmp
-cache
+game/cache/**
 env
 
 log.txt
@@ -48,7 +45,6 @@ styles.txt
 /editra
 /launcher/game/theme
 /launcher/game/script_version.rpy
-
 /dl
 renpy/vc_version.py
 .externalToolBuilders
@@ -58,11 +54,3 @@ renpy/vc_version.py
 /pygame_sdl2
 /renios
 /steam_appid.txt
-game/saves/*.save
-*.save
-game/saves/persistent
-game/saves/auto-1-LT1.save
-*.save
-game/saves/persistent
-*.rpyb
-game/saves/persistent
